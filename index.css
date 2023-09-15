@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+/* Header part */
+/* header {
+    background-color: paleturquoise;
+} */
+.google_logo {
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google_logo_png {
+    width: 110px;
+}
+
+.sign_in {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.use_account {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+/* Main part */
+
+main {
+    /* background-color: palevioletred; */
+    position: relative;
+}
+
+/* Email or phone input */
+.input_part {
+    /* background-color: red; */
+    display: flex;
+    position: relative;
+    height: 15vh;
+}
+
+.form_field {
+    height: 8vh;
+    width: 90vw;
+    margin: 10px auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 0;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 4px;
+    font-size: .8rem;
+}
+
+.form_label::placeholder {
+    color: transparent;
+}
+
+.form_label {
+    display: block;
+    position: absolute;
+    top: 3%;
+    left: 7%;
+    font-size: .8rem;
+    transition: 0.2s;
+    color: rgb(34, 77, 233);
+    background: white;
+
+
+}
+
+.form_field:placeholder-shown~.form_label {
+    /* font-size: .8rem; */
+    font-size: 0;
+    cursor: text;
+    left: 10%;
+    top: 29.1%;
+    background: none;
+    color: none;
+    /* width: 100px; */
+}
+
+/* Lavel 2 */
+.form_label_2 {
+    border: 2px solid  rgb(34, 77, 233);
+    height: 8vh;
+    width: 90vw;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    margin: 10px auto;
+    border-radius: 4px;
+
+}
+.form_field:placeholder-shown~.form_label_2 {
+    border: 0;
+    height: 8vh;
+    width: 90vw;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    margin: 10px auto;
+    border-radius: 4px;
+}
+
+/* Forgot email */
+.forgot_email {
+    text-decoration: none;
+    font-size: .8rem;
+    color: rgb(34, 77, 233);
+    position: absolute;
+    bottom: .5vh;
+    left: 5%;
+}
+
+/* Text field : not your computer and rearn more part */
+/* .text_field {
+    background-color: palegreen;
+} */
+
+.guest_mode {
+    color: gray;
+    font-size: .8rem;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+
+.learn_more {
+    text-decoration: none;
+    color: rgb(34, 77, 233);
+}
+
+/* create account or next button */
+
+.create_next {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create_account {
+    text-decoration: none;
+    font-size: .8rem;
+    margin-left: 5%;
+    color: rgb(34, 77, 233);
+}
+
+.next_button {
+    font-size: 1rem;
+    background-color: rgb(34, 77, 233);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5%;
+    padding: 1.4vh 6.5vw 1.4vh 6.5vw;
+}
+
+
+/* Foter part */
+
+.footer_position {
+    position: absolute;
+    bottom: 0;
+}
+
+/* language select */
+
+.selec_tor {
+    border: none;
+    outline: none;
+    font-size: .7rem;
+    padding: 2vh 10vw 2vh 4vw;
+    background-color: white;
+}
+
+/* Footer nav */
+
+.footer_nav ul {
+    display: flex;
+    height: 7vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_nav ul li {
+    list-style: none;
+    font-size: .7rem;
+}
+
+.footer_nav ul li a {
+    text-decoration: none;
+    color: gray;
+}

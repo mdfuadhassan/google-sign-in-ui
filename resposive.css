@@ -1,0 +1,138 @@
+@media screen and (min-width:500px) {
+    
+    body {
+        height: 605px;
+        width: 582px;
+        position: relative;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .full_body {
+        margin: auto;
+        width: 550px;
+        height: 550px;
+        border: 1px solid gray;
+        border-radius: 7px;
+        position: relative;
+        box-shadow:2px 1x ;
+    }
+    
+    /* Header part */
+
+    .google_logo_png {
+        width: 100px;
+    }
+    
+    .sign_in {
+        font-size: 1.3rem;
+
+    }
+
+    /* Main part */
+    
+    /* Email or phone input */
+    .input_part {
+        height: 70px;
+    }
+    
+    .form_field {
+        height: 40px;
+        width: 500px;
+        margin: 10px 40px;
+        margin-right: 40px;
+        margin-left: 40px;
+  
+    }
+
+    
+    .form_label {
+
+        top: 4px;
+        left: 50px;
+
+
+    }
+    
+    .form_field:placeholder-shown~.form_label {
+
+        font-size: 0;
+        cursor: text;
+        left: 70px;
+        top: 30px;
+    }
+    
+    /* Lavel 2 */
+    .form_label_2 {
+        height: 40px;
+        width: 468px;
+        position: absolute;
+        left: 40px;
+        right: 40px;
+    
+    }
+    .form_field:placeholder-shown~.form_label_2 {
+        height: 40px;
+        width: 468px;
+        left: 40px;
+        right: 40px;
+    }
+    
+    /* Forgot email */
+    .forgot_email {
+        bottom: 1px;
+        left: 40px;
+    }
+    
+    /* Text field : not your computer and rearn more part */
+  
+    .guest_mode {
+        font-size: .8rem;
+        padding: 45px 40px;
+    }
+    
+    /* create account or next button */
+    
+    .create_account {
+
+        margin-left: 40px;
+        color: rgb(34, 77, 233);
+    }
+    
+    .next_button {
+ 
+        padding: 8px 26px 8px 26px;
+    }
+    
+    
+    /* Foter part */
+    
+    .footer_position {
+        position: absolute;
+        bottom: -50px;
+        left: -16px;
+        display: flex;
+
+    }
+    
+    /* language select */
+    
+    .selec_tor {
+        padding: 13px 60px 13px 20px;
+        border-radius: 5px;
+    }
+    
+    /* Footer nav */
+
+    .footer_nav {
+        margin-left: 130px;
+    }
+    
+    .footer_nav ul {
+        height: 40px;
+        width: 225px;
+        justify-content: space-around;
+        border-radius: 5px;
+    }
+
+}
